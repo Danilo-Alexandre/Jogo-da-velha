@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="h1">Tic-Tac-Toe</h1>
+    <div id="contador">
+        <h2 id="playerx"><img class="iconx" src="./assets/x.png" height="50px"> =</h2>
+        <span id="contx"></span>
+        <span id="conto"></span>
+        <h2 id="playero">= <img class="icono" src="./assets/o.png" height="50px"></h2>
+    </div>
+
+
+    <!-- <div id="line"></div> -->
+    <div class="board">
+        
+        <div class="box xgray" data-index="0" id="a1"></div>
+        <div class="box xgray" data-index="1" id="a2"></div>
+        <div class="box xgray" data-index="2" id="a3"></div>
+        <div class="box xgray" data-index="3" id="a4"></div>
+        <div class="box xgray" data-index="4" id="a5"></div>
+        <div class="box xgray" data-index="5" id="a6"></div>
+        <div class="box xgray" data-index="6" id="a7"></div>
+        <div class="box xgray" data-index="7" id="a8"></div>
+        <div class="box xgray" data-index="8" id="a9"></div>
+
+    </div>
+    <div id="line"></div>
+    <h2 id="result"></h2>
+
+     <button id="btn">Reset</button>
+     <a href="./index.html"><button id="restartgame">Restart Game</button></a>
+    <script src="./script.js"></script>
+</body>
+</html>
